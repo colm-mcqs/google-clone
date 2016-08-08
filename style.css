@@ -19,3 +19,43 @@
 .search-wrapper form input{
     width: 380px;
 }
+
+#navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+
+#navlist li{
+    float: right;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+    color: grey;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+#signinbutton{
+    background-color: royalblue;
+    color: white;
+    border-radius: 3px;
+    font-weight:bold;
+
+}
+
+#signinbutton:hover{
+    text-decoration: none;
+}
